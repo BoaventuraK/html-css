@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&family=Single+Day&display=swap');
+
+main{
+    background-color: white;
+    width: 900px;
+    padding: 12px;
+    border-radius: 13px;
+    margin: auto;
+    box-shadow: 4px 4px 10px rgba(100, 76, 86, 0.644);
+    align-items: center;
+}
+
+body{
+    font: normal normal 1em roboto, sans-serif;
+    background-image: linear-gradient(90deg, #B88C9E, #F1C8DB);
+    text-align: justify;
+    text-decoration: none;
+}
+
+h1{
+    color: #392B58;
+    font: normal normal 5em 'Single Day', cursive;
+    text-shadow: 1px 1px 2px rgba(45, 3, 32, 0.733);
+    text-align: center;
+}
+
+h2{
+    font-style: italic;
+    color: #4281A4;
+}
+
+img{
+    width: 400px;
+}
+
+div{
+    text-align: center;
+    margin-bottom: 15px;
+}

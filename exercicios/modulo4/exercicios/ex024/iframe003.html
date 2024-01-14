@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação em iframes</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe{
+            display: block;
+            margin: auto;
+            width: 800px;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h1>Navegando com Iframes</h1>
+
+    <ul>
+        <li><a href="pags-extra/teste.html" target="frame">Pagina 1</a></li>
+        <li><a href="pags-extra/pag002.html" target="frame">Pagina 2</a></li>
+        <li><a href="pags-extra/pag003.html" target="frame">Pagina 3</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint quae ex? Eius ad fugit facilis dignissimos tenetur. Nesciunt laborum saepe eaque in quia natus placeat ipsa doloribus asperiores dolorem.
+    At mollitia quisquam inventore ratione maiores nemo, culpa quas error earum quia fuga, accusamus eveniet numquam ducimus natus sed ullam beatae temporibus itaque in incidunt reiciendis corporis labore quam? Et!</p>
+
+    <iframe srcdoc="<h1>Teste</h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint quae ex? Eius ad fugit facilis dignissimos tenetur. Nesciunt laborum saepe eaque in quia natus placeat ipsa doloribus asperiores dolorem.
+    At mollitia quisquam inventore ratione maiores nemo, culpa quas error earum quia fuga, accusamus eveniet numquam ducimus natus sed ullam beatae temporibus itaque in incidunt reiciendis corporis labore quam? Et!</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint quae ex? Eius ad fugit facilis dignissimos tenetur. Nesciunt laborum saepe eaque in quia natus placeat ipsa doloribus asperiores dolorem.
+    At mollitia quisquam inventore ratione maiores nemo, culpa quas error earum quia fuga, accusamus eveniet numquam ducimus natus sed ullam beatae temporibus itaque in incidunt reiciendis corporis labore quam? Et!</p>" frameborder="0" name="frame">
+        <p>Seu navegador nao é compativel com ifremes</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint quae ex? Eius ad fugit facilis dignissimos tenetur. Nesciunt laborum saepe eaque in quia natus placeat ipsa doloribus asperiores dolorem.
+    At mollitia quisquam inventore ratione maiores nemo, culpa quas error earum quia fuga, accusamus eveniet numquam ducimus natus sed ullam beatae temporibus itaque in incidunt reiciendis corporis labore quam? Et! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid numquam quaerat quidem hic eligendi aut explicabo, voluptas, quisquam quo rem error consectetur incidunt magnam illo cupiditate, maxime perferendis doloremque necessitatibus.</p>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.aqua{
+            background-color: aqua;
+        }
+
+        col.verde{
+            background-color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+
+    <table>
+        <colgroup>
+            <col class="aqua">
+            <col class="verde" span="2">
+            <col class="aqua">
+        </colgroup>
+        <caption>Cadastro</caption>
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profição</th>
+        </tr>
+        <tr>
+            <td>Alana Almeida</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Programadora</td>
+        </tr>
+        <tr>
+            <td>Claudio</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Atleta</td>
+        </tr>
+        <tr>
+            <td>Murilo</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Engrenheiro Civil</td>
+            
+        </tr>
+        <tr>
+            <td>Julia</td>
+            <td>F</td>
+            <td>32</td>
+            <td>Enfermeira</td>
+        </tr>
+        <tr>
+            <td>Joao</td>
+            <td>M</td>
+            <td>41</td>
+            <td>Medico</td>
+        </tr>
+        <tr>
+            <td>Wanderson</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Juiz</td>
+        </tr>
+    </table>
+
+</body>
+</html>

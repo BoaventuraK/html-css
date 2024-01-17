@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Estilo para impresoras */
+
+*{
+    padding: 10px;
+    margin: 10px;
+}
+
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+p{
+    text-align: justify;
+}
+
+menu{
+    display: none;
+}
+
+article::after{
+    content: 'Esse artigo foi escrito com lorem';
+}
